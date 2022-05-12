@@ -65,7 +65,56 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="container my-5">
+        <h1 class="display-1">Contactenos</h1>
+        <form>
+          <div class="mb-3">
+            <label for="nombreyapellido" class="form-label"
+              >Nombre y Apellido</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="nombreyapellido"
+              placeholder="Julian"
+              required
+              minlength="3"
+              maxlength="30"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label"
+              >Email</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="name@example.com"
+              required
+              minlength="10"
+              maxlength="100"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="consulta" class="form-label"
+              >Example textarea</label
+            >
+            <textarea
+              class="form-control"
+              id="consulta"
+              rows="3"
+              required
+              placeholder="Max 200 caracteres"
+              minlength="5"
+              maxlength="300"
+            ></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
     <footer class="bg-dark p-4">
       <div class="container">
         <div class="row">
