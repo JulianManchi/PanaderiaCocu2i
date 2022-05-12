@@ -1,0 +1,6 @@
+@media all and (max-width: 576px) {
+    .imgslider{
+        height: 280px;
+        object-fit: cover;
+    }
+}
